@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Portfolio Gallery</h1>
+        <p>A curated collection of visual designs and signatures</p>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="gallery-grid" id="gallery">
+          <!-- Images will be populated by JavaScript -->
+        </div>
+      </div>
+    </main>
+
+    <!-- Modal for image preview -->
+    <div class="modal" id="imageModal">
+      <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <img id="modalImage" src="" alt="" />
+        <div class="modal-nav">
+          <button id="prevBtn" class="nav-btn">&lt;</button>
+          <button id="nextBtn" class="nav-btn">&gt;</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Portfolio Gallery. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
